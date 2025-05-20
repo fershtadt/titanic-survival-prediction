@@ -18,25 +18,26 @@
 
 ## 📂 Структура проекта
 
+```
 titanic-survival-prediction/
-├── data/ # Датасет (train.csv)
-├── models/ # Обученная модель (model.pkl)
-├── notebooks/ # Jupyter ноутбук (EDA + вывод)
-│ └── eda_and_model.ipynb
-├── src/ # Исходный код
-│ ├── preprocessing.py
-│ └── train_model.py
+├── data/                  # Датасет (train.csv)
+├── models/                # Обученная модель (model.pkl)
+├── notebooks/             # Jupyter ноутбук (EDA + вывод)
+│   └── eda_and_model.ipynb
+├── src/                   # Исходный код
+│   ├── preprocessing.py
+│   └── train_model.py
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
 └── .env
-
+```
 
 ---
 
 ## 🛠 Используемые технологии
 
-- Python
+- Python 3.x
 - Pandas, NumPy
 - Scikit-learn
 - Joblib
@@ -61,3 +62,10 @@ pip install -r requirements.txt
 
 # Запустить обучение модели
 PYTHONPATH=. python src/train_model.py
+```
+
+---
+
+## 📬 Контакты
+
+📧 tral1930@mail.ru
